@@ -1,0 +1,43 @@
+.contenedor{
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.titulo1{
+    background-color: rgb(218, 221, 222); 
+    text-decoration-line: underline;
+}
+
+h2{
+    font-size: 30px;
+    font-family: 'Alex Brush', cursive;
+font-family: 'Courgette', cursive;
+font-family: 'Inter', sans-serif;
+font-family: 'Ms Madi', cursive;
+font-family: 'Oooh Baby', cursive;
+}
+
+.imagen{
+    /* float: center; */
+    margin: 20px 350px;
+    width: 40%;
+    height: auto;
+}
+
+.imagen2{
+    /*float: left; */
+    margin: 20px 350px; 
+    width: 40%; 
+    height: auto;
+
+}
+
+.descripcion{
+    text-align: center;
+    font-family: 'Alex Brush', cursive;
+font-family: 'Courgette', cursive;
+font-family: 'Inter', sans-serif;
+font-family: 'Ms Madi', cursive;
+font-family: 'Oooh Baby', cursive;
+}

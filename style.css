@@ -1,0 +1,69 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgb(218, 221, 222);
+    padding: 0;
+    margin: 0;
+    /*padding-bottom: 150px;*/
+
+}
+
+.logo{
+    float: left;
+}
+
+h1{
+    text-align: center;
+    background-color: white;
+    padding: 50px;
+    margin: 0;
+    color: black;
+    height: 70px;
+    font-size: 50px;
+    font-family: 'Alex Brush', cursive;
+font-family: 'Dancing Script', cursive;
+font-family: 'Inter', sans-serif;
+font-family: 'Ms Madi', cursive;
+font-family: 'Oooh Baby', cursive;
+    
+}
+
+
+.active{
+    background-color: rgba(16, 183, 100, 0.989);
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(70, 109, 198);
+}
+
+li{
+    float: left;
+}
+
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+}
+
+li:hover:not(.active){
+    background-color: rgb(190, 71, 190);
+}
+
+
+
+footer{
+    background-color: cornflowerblue;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    /*position: fixed;*/
+    bottom: 0;
+    width: 100%;
+}
